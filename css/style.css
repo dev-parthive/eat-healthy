@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/* Banner part start form here  */
+
+.banner-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+
+}
+.text-part{
+    width: 50%;
+    padding-left: 5%;
+}
+.image-part{
+    width: 50%;
+    padding-left: 5%;
+}
+.image-part img{
+    width: 100%;
+}
+.banner-heading {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #575757;
+  }
+.banner-heading span{
+    color: orange;
+}
+  .banner-text {
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+.order-btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 17px;
+  color: white;
+  background-image: linear-gradient(45deg, #ee9c8d, red);
+  box-shadow: 4px 4px 18px #fd8a77;
+  cursor: pointer;
+}
